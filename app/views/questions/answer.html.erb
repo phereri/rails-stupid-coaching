@@ -1,0 +1,13 @@
+<h1>STUPID COACHING</h1>
+<div class="border-start border-secondary-subtle border-5 p-2">
+  <p><%= "- #{@question}" %></p>
+  <p class="fst-italic"><%= "- You" %></p>
+</div>
+<br>
+<div class="bg-warning" style="--bs-bg-opacity: .2;">
+  <div class="border-start border-secondary-subtle border-5 p-2">
+    <p><%= "- #{@answer}" %></p>
+    <p class="fst-italic"><%= "- Your coach" %></p>
+  </div>
+</div>
+<%= link_to 'Ask a new question', ask_path %>
